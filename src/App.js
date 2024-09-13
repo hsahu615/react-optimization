@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LazyLoadingExample from "./LazyLoading/LazyLoadingExample";
+import MemoizedExample from "./Memo/MemoizedExample";
+import Debouncing from "./ThrottlingAndDebouncing/Debouncing";
+import Throttling from "./ThrottlingAndDebouncing/Throttling";
+import UseTransition from "./UseTransition/UseTransition";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ListOptimization /> */}
+      {/* <LazyLoadingExample /> */}
+      {/* <MemoizedExample /> */}
+      {/* <Throttling /> */}
+      {/* <Debouncing /> */}
+      <UseTransition />
     </div>
   );
 }
